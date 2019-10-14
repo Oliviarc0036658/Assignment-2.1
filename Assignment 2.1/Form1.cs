@@ -45,8 +45,11 @@ namespace Assignment_2._1
                 MessageBox.Show("Not a correct value.");
                 s1r2 = 0.0;
             }
+            //The try catches detect if anything that isnt a number has been put into the text boxes.
+
             double s1rt = s1r1 + s1r2;
             label3.Text = "=" + s1rt;
+            //This calculates the resistence for the serise circut with 2 resisters.
 
         }
 
@@ -83,9 +86,11 @@ namespace Assignment_2._1
                 MessageBox.Show("Not a correct value.");
                 s2r3 = 0.0;
             }
+            //The try catches detect if anything that isnt a number has been put into the text boxes.
 
             double s2rt = s2r1 + s2r2 + s2r3;
             label7.Text = "=" + s2rt;
+            //This calculates the resistence for the series circut whith 3 resisters.
         }
 
         private void Label12_Click(object sender, EventArgs e)
@@ -116,10 +121,11 @@ namespace Assignment_2._1
                 MessageBox.Show("Not a correct value.");
                 p1r2 = 0.0;
             }
+            //The try catches detect if anything that isnt a number has been put into the text boxes.
 
             double p1rt = 1.0 / (1.0 / p1r1 + 1.0 / p1r2 );
             label10.Text = "=" + p1rt;
-
+            //This calculates the  resistence for the paraller circut with 2 resisters.
         
         }
 
@@ -156,9 +162,11 @@ namespace Assignment_2._1
                 MessageBox.Show("Not a correct value.");
                 p2r3 = 0.0;
             }
+            //The try catches detect if anything that isnt a number has been put into the text boxes.
 
             double p2rt = 1.0 / (1.0 / p2r1 + 1.0 / p2r2 + 1.0 / p2r3);
             label14.Text = "=" + p2rt;
+            //this calculates the resistence for the parrallel with 3 resisters.
         }
     }
 }
