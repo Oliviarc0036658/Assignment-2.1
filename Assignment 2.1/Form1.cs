@@ -87,5 +87,78 @@ namespace Assignment_2._1
             double s2rt = s2r1 + s2r2 + s2r3;
             label7.Text = "=" + s2rt;
         }
+
+        private void Label12_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void Button3_Click(object sender, EventArgs e)
+        {
+            double p1r1, p1r2;
+
+            try
+            {
+                p1r1 = double.Parse(textBox7.Text);
+            }
+            catch
+            {
+                MessageBox.Show("Not a correct value.");
+                p1r1 = 0.0;
+            }
+
+            try
+            {
+                p1r2 = double.Parse(textBox6.Text);
+            }
+            catch
+            {
+                MessageBox.Show("Not a correct value.");
+                p1r2 = 0.0;
+            }
+
+            double p1rt = 1.0 / (1.0 / p1r1 + 1.0 / p1r2 );
+            label10.Text = "=" + p1rt;
+
+        
+        }
+
+        private void Button4_Click(object sender, EventArgs e)
+        {
+            double p2r1, p2r2, p2r3;
+
+            try
+            {
+                p2r1 = double.Parse(textBox10.Text);
+            }
+            catch
+            {
+                MessageBox.Show("Not a correct value.");
+                p2r1 = 0.0;
+            }
+
+            try
+            {
+                p2r2 = double.Parse(textBox8.Text);
+            }
+            catch
+            {
+                MessageBox.Show("Not a correct value.");
+                p2r2 = 0.0;
+            }
+
+            try
+            {
+                p2r3 = double.Parse(textBox9.Text);
+            }
+            catch
+            {
+                MessageBox.Show("Not a correct value.");
+                p2r3 = 0.0;
+            }
+
+            double p2rt = 1.0 / (1.0 / p2r1 + 1.0 / p2r2 + 1.0 / p2r3);
+            label14.Text = "=" + p2rt;
+        }
     }
 }

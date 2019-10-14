@@ -63,6 +63,26 @@ namespace Assignment_2._1.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap Parallel {
+            get {
+                object obj = ResourceManager.GetObject("Parallel", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap Parallel_2 {
+            get {
+                object obj = ResourceManager.GetObject("Parallel_2", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap series_2 {
             get {
                 object obj = ResourceManager.GetObject("series_2", resourceCulture);
