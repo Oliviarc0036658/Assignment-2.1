@@ -34,6 +34,7 @@ namespace Assignment_2._1
             {
                 MessageBox.Show("Not a correct value.");
                 s1r1 = 0.0;
+                //Makes a message box pop up when a invalid value is put into the textbox.
             }
 
             try
@@ -44,6 +45,7 @@ namespace Assignment_2._1
             {
                 MessageBox.Show("Not a correct value.");
                 s1r2 = 0.0;
+                //Makes a message box pop up when a invalid value is put into the textbox.
             }
             //The try catches detect if anything that isnt a number has been put into the text boxes.
 
@@ -65,6 +67,7 @@ namespace Assignment_2._1
             {
                 MessageBox.Show("Not a correct value.");
                     s2r1 = 0.0;
+                //Makes a message box pop up when a invalid value is put into the textbox.
             }
 
             try
@@ -75,6 +78,7 @@ namespace Assignment_2._1
             {
                 MessageBox.Show("Not a correct value.");
                     s2r2 = 0.0;
+                //Makes a message box pop up when a invalid value is put into the textbox.
             }
 
             try
@@ -85,6 +89,7 @@ namespace Assignment_2._1
             {
                 MessageBox.Show("Not a correct value.");
                 s2r3 = 0.0;
+                //Makes a message box pop up when a invalid value is put into the textbox.
             }
             //The try catches detect if anything that isnt a number has been put into the text boxes.
 
@@ -110,6 +115,7 @@ namespace Assignment_2._1
             {
                 MessageBox.Show("Not a correct value.");
                 p1r1 = 0.0;
+                //Makes a message box pop up when a invalid value is put into the textbox.
             }
 
             try
@@ -120,6 +126,7 @@ namespace Assignment_2._1
             {
                 MessageBox.Show("Not a correct value.");
                 p1r2 = 0.0;
+                //Makes a message box pop up when a invalid value is put into the textbox.
             }
             //The try catches detect if anything that isnt a number has been put into the text boxes.
 
@@ -141,6 +148,7 @@ namespace Assignment_2._1
             {
                 MessageBox.Show("Not a correct value.");
                 p2r1 = 0.0;
+                //Makes a message box pop up when a invalid value is put into the textbox.
             }
 
             try
@@ -151,6 +159,7 @@ namespace Assignment_2._1
             {
                 MessageBox.Show("Not a correct value.");
                 p2r2 = 0.0;
+                //Makes a message box pop up when a invalid value is put into the textbox.
             }
 
             try
@@ -161,6 +170,7 @@ namespace Assignment_2._1
             {
                 MessageBox.Show("Not a correct value.");
                 p2r3 = 0.0;
+                //Makes a message box pop up when a invalid value is put into the textbox.
             }
             //The try catches detect if anything that isnt a number has been put into the text boxes.
 
